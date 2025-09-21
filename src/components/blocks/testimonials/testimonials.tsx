@@ -24,80 +24,8 @@ const chunkArray = (
 export default function TestimonialsSection() {
   const t = useTranslations('HomePage.testimonials');
 
-  const testimonials: Testimonial[] = [
-    {
-      name: t('items.item-1.name'),
-      role: t('items.item-1.role'),
-      image: t('items.item-1.image'),
-      quote: t('items.item-1.quote'),
-    },
-    {
-      name: t('items.item-2.name'),
-      role: t('items.item-2.role'),
-      image: t('items.item-2.image'),
-      quote: t('items.item-2.quote'),
-    },
-    {
-      name: t('items.item-3.name'),
-      role: t('items.item-3.role'),
-      image: t('items.item-3.image'),
-      quote: t('items.item-3.quote'),
-    },
-    {
-      name: t('items.item-4.name'),
-      role: t('items.item-4.role'),
-      image: t('items.item-4.image'),
-      quote: t('items.item-4.quote'),
-    },
-    {
-      name: t('items.item-5.name'),
-      role: t('items.item-5.role'),
-      image: t('items.item-5.image'),
-      quote: t('items.item-5.quote'),
-    },
-    {
-      name: t('items.item-6.name'),
-      role: t('items.item-6.role'),
-      image: t('items.item-6.image'),
-      quote: t('items.item-6.quote'),
-    },
-    {
-      name: t('items.item-7.name'),
-      role: t('items.item-7.role'),
-      image: t('items.item-7.image'),
-      quote: t('items.item-7.quote'),
-    },
-    {
-      name: t('items.item-8.name'),
-      role: t('items.item-8.role'),
-      image: t('items.item-8.image'),
-      quote: t('items.item-8.quote'),
-    },
-    {
-      name: t('items.item-9.name'),
-      role: t('items.item-9.role'),
-      image: t('items.item-9.image'),
-      quote: t('items.item-9.quote'),
-    },
-    {
-      name: t('items.item-10.name'),
-      role: t('items.item-10.role'),
-      image: t('items.item-10.image'),
-      quote: t('items.item-10.quote'),
-    },
-    {
-      name: t('items.item-11.name'),
-      role: t('items.item-11.role'),
-      image: t('items.item-11.image'),
-      quote: t('items.item-11.quote'),
-    },
-    {
-      name: t('items.item-12.name'),
-      role: t('items.item-12.role'),
-      image: t('items.item-12.image'),
-      quote: t('items.item-12.quote'),
-    },
-  ];
+  const testimonialsMap = t.raw('items') as Record<string, Testimonial>;
+  const testimonials = Object.values(testimonialsMap);
 
   const testimonialChunks = chunkArray(
     testimonials,
