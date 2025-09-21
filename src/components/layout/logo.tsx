@@ -24,8 +24,8 @@ export function Logo({ className }: { className?: string }) {
   return (
     <Image
       src={logo}
-      alt="Logo"
-      title="Logo"
+      alt="AI Retro logo"
+      title="AI Retro logo"
       width={96}
       height={96}
       className={cn('size-8 rounded-md', className)}
