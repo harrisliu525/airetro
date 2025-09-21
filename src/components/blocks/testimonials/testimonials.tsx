@@ -1,7 +1,7 @@
 import { HeaderSection } from '@/components/layout/header-section';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Card, CardContent } from '@/components/ui/card';
-import { useTranslations } from 'next-intl';
+import { useMessages, useTranslations } from 'next-intl';
 
 type Testimonial = {
   name: string;
@@ -23,8 +23,9 @@ const chunkArray = (
 
 export default function TestimonialsSection() {
   const t = useTranslations('HomePage.testimonials');
+  const messages = useMessages();
 
-  const testimonialsMap = t.raw('items') as Record<string, Testimonial>;
+  const testimonialsMap = ((messages as Record<string, any>)?.HomePage?.testimonials?.items ?? {}) as Record<string, Testimonial>;
   const testimonials = Object.values(testimonialsMap);
 
   const testimonialChunks = chunkArray(
