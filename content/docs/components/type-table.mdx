@@ -1,34 +1,17 @@
 ---
-title: Type Table
-description: A table for documenting types
-preview: typeTable
+title: Preset Metadata Table
+description: Document data fields returned by the AI Retro API.
 ---
 
-## Usage
+## Default columns
 
-It accepts a `type` property.
+ID, preset name, era, category, aspect ratios, and recommended use cases. Extend the schema with your own columns using MDX slots.
 
-```mdx
-import { TypeTable } from 'fumadocs-ui/components/type-table';
+## Sorting and filtering
 
-<TypeTable
-  type={{
-    percentage: {
-      description:
-        'The percentage of scroll position to display the roll button',
-      type: 'number',
-      default: 0.2,
-    },
-  }}
-/>
-```
+Enable column sorting or provide quick filters so developers can find the information they need quickly.
 
-## References
+## Usage example
 
-### Type Table
+Use metadata tables in integration docs to clarify what values are required when calling the AI Retro API.
 
-{/* <AutoTypeTable path="./content/docs/props.ts" name="TypeTableProps" /> */}
-
-### Object Type
-
-{/* <AutoTypeTable path="./content/docs/props.ts" name="ObjectTypeProps" /> */}

@@ -23,7 +23,7 @@ import { websiteConfig } from './website';
  * NOTICE: used in client components only
  *
  * docs:
- * https://mksaas.com/docs/config/sidebar
+ * https://ai-retro.com/docs/config/sidebar
  *
  * @returns The sidebar config with translated titles and descriptions
  */

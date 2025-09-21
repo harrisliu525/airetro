@@ -1,35 +1,17 @@
 ---
-title: Root Toggle
-description: Switch between page trees
-preview: rootToggle
+title: Retro Mode Toggle
+description: Toggle between before and after states when showcasing AI Retro effects.
 ---
 
-## Usages
+## Configuration
 
-Add this component to your sidebar or other places you want.
+Pass in two image sources: the original photo and the AI Retro output. The toggle handles crossfade animation and drag interactions.
 
-```tsx
-import { DocsLayout } from 'fumadocs-ui/layouts/docs';
-import { RootToggle } from 'fumadocs-ui/components/layout/root-toggle';
+## Copy suggestions
 
-<DocsLayout
-  sidebar={{
-    banner: (
-      <RootToggle
-        options={[
-          {
-            title: 'Folder 1',
-            description: 'Pages in folder 1',
-            url: '/path/to/page-tree-1',
-          },
-          {
-            title: 'Folder 2',
-            description: 'Pages in folder 2',
-            url: '/path/to/page-tree-2',
-          },
-        ]}
-      />
-    ),
-  }}
-/>;
-```
+Label the default state as "Original" and the transformed state with the preset name to reinforce branding.
+
+## Performance
+
+Lazy load secondary images and provide fallbacks for browsers without pointer support.
+

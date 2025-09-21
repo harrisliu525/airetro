@@ -1,61 +1,17 @@
 ---
-title: Banner
-description: Add a banner to your site
-preview: banner
+title: Announcement Banner
+description: Highlight launches and style drops across AI Retro surfaces.
 ---
 
-## Usage
+## Use cases
 
-Put the element at the top of your root layout, you can use it for displaying announcements.
+Promote new presets, trial extensions, or seasonal campaigns. Place the banner near the top of landing pages or dashboards.
 
-```tsx
-import { Banner } from 'fumadocs-ui/components/banner';
+## Styling options
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}): React.ReactElement {
-  return (
-    <html lang="en">
-      <body>
-        <Banner>Hello World</Banner>
-        {children}
-      </body>
-    </html>
-  );
-}
-```
+Configure background gradients, icon choices, and CTA labels. The banner supports dark and light modes automatically.
 
-### Variant
+## Best practices
 
-Change the default variant.
+Keep copy under 80 characters and include a single clear call to action.
 
-```tsx
-import { Banner } from 'fumadocs-ui/components/banner';
-
-<Banner variant="rainbow">Hello World</Banner>;
-```
-
-### Change Layout
-
-By default, the banner uses a `style` tag to modify Fumadocs layouts (e.g. reduce the sidebar height).
-You can disable it with:
-
-```tsx
-import { Banner } from 'fumadocs-ui/components/banner';
-
-<Banner changeLayout={false}>Hello World</Banner>;
-```
-
-### Close
-
-To allow users to close the banner, give the banner an ID.
-
-```tsx
-import { Banner } from 'fumadocs-ui/components/banner';
-
-<Banner id="hello-world">Hello World</Banner>;
-```
-
-The state will be automatically persisted.

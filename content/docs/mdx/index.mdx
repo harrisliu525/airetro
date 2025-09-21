@@ -1,41 +1,7 @@
 ---
-title: MDX
-description: Default MDX Components
-index: true
+title: MDX Toolkit
+description: Overview of custom MDX components available in AI Retro documentation.
 ---
 
-## Usage
+Use the MDX toolkit to enrich your documentation with callouts, cards, code blocks, tabs, and more. Each component keeps the brand consistent while giving writers flexibility.
 
-The default MDX components include Cards, Callouts, Code Blocks and Headings.
-
-```ts
-import defaultMdxComponents from 'fumadocs-ui/mdx';
-```
-
-### Relative Link
-
-To support links with relative file path in `href`, override the default `a` component with:
-
-```tsx
-import { createRelativeLink } from 'fumadocs-ui/mdx';
-import { source } from '@/lib/source';
-
-const page = source.getPage(['...']);
-
-return (
-  <MdxContent
-    components={{
-      // override the `a` tag
-      a: createRelativeLink(source, page),
-    }}
-  />
-);
-```
-
-```mdx
-[My Link](./file.mdx)
-```
-
-[Example: `../(integrations)/open-graph.mdx`](<../(integrations)/open-graph.mdx>)
-
-<Callout type="warn">Server Component only.</Callout>

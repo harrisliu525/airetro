@@ -5,7 +5,7 @@ import type { WebsiteConfig } from '@/types';
  * website config, without translations
  *
  * docs:
- * https://mksaas.com/docs/config/website
+ * https://ai-retro.com/docs/config/website
  */
 export const websiteConfig: WebsiteConfig = {
   ui: {
@@ -25,13 +25,13 @@ export const websiteConfig: WebsiteConfig = {
       logoDark: '/logo.png',
     },
     social: {
-      github: 'https://github.com/MkSaaSHQ',
-      twitter: 'https://mksaas.link/twitter',
-      blueSky: 'https://mksaas.link/bsky',
-      discord: 'https://mksaas.link/discord',
-      mastodon: 'https://mksaas.link/mastodon',
-      linkedin: 'https://mksaas.link/linkedin',
-      youtube: 'https://mksaas.link/youtube',
+      github: 'https://github.com/ai-retro',
+      twitter: 'https://x.com/airetrostudio',
+      blueSky: 'https://bsky.app/profile/ai-retro.com',
+      discord: 'https://discord.gg/airetro',
+      mastodon: 'https://mastodon.social/@airetro',
+      linkedin: 'https://www.linkedin.com/company/ai-retro',
+      youtube: 'https://www.youtube.com/@airetro',
     },
   },
   features: {
@@ -74,8 +74,8 @@ export const websiteConfig: WebsiteConfig = {
   },
   mail: {
     provider: 'resend',
-    fromEmail: 'MkSaaS <support@mksaas.com>',
-    supportEmail: 'MkSaaS <support@mksaas.com>',
+    fromEmail: 'AI Retro <support@ai-retro.com>',
+    supportEmail: 'AI Retro <support@ai-retro.com>',
   },
   newsletter: {
     enable: false,

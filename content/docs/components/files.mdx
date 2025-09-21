@@ -1,35 +1,17 @@
 ---
-title: Files
-description: Display file structure in your documentation
-preview: 'files'
+title: Resource Download List
+description: Offer downloadable assets like brand presets, palettes, and sample renders.
 ---
 
-## Usage
+## Adding files
 
-Wrap file components in `Files`.
+Reference files stored in /public/downloads or external storage URLs. Each entry shows filename, size, and an optional description.
 
-```mdx
-import { File, Folder, Files } from 'fumadocs-ui/components/files';
+## Permissions
 
-<Files>
-  <Folder name="app" defaultOpen>
-    <File name="layout.tsx" />
-    <File name="page.tsx" />
-    <File name="global.css" />
-  </Folder>
-  <Folder name="components">
-    <File name="button.tsx" />
-    <File name="tabs.tsx" />
-    <File name="dialog.tsx" />
-  </Folder>
-  <File name="package.json" />
-</Files>
-```
+Restrict downloads to signed-in creators by wrapping the component in the premium content guard component.
 
-### File
+## Analytics
 
-{/* <AutoTypeTable path="./content/docs/props.ts" name="FileProps" /> */}
+Enable download tracking to understand which assets are most popular with your community.
 
-### Folder
-
-{/* <AutoTypeTable path="./content/docs/props.ts" name="FolderProps" /> */}

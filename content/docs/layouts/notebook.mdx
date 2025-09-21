@@ -1,32 +1,17 @@
 ---
-title: Notebook
-description: A more compact version of Docs Layout
+title: Notebook Layout
+description: Present tutorials and research notes in a journal-style format.
 ---
 
-## Usage
+## Sections
 
-Enable the notebook layout with `fumadocs-ui/layouts/notebook`, it's a more compact layout than the default one.
+The notebook layout supports a hero, outline, article body, and callout blocks. Use it for deep dives like color science or model training updates.
 
-![Notebook](/images/docs/notebook.png)
+## Styling
 
-```tsx title="layout.tsx"
-import { DocsLayout } from 'fumadocs-ui/layouts/notebook';
-import { baseOptions } from '@/app/layout.config';
-import { source } from '@/lib/source';
-import type { ReactNode } from 'react';
+Toggle ruled line backgrounds, adjust margin spacing, and select hand-drawn illustration accents.
 
-export default function Layout({ children }: { children: ReactNode }) {
-  return (
-    <DocsLayout
-      {...baseOptions}
-      // the position of navbar
-      nav={{ ...baseOptions.nav, mode: 'top' }}
-      // the position of Sidebar Tabs
-      tabMode="navbar"
-      tree={source.pageTree}
-    >
-      {children}
-    </DocsLayout>
-  );
-}
-```
+## Best practices
+
+Add estimated reading time and related articles to help readers continue exploring.
+

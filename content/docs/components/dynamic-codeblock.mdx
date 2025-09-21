@@ -1,38 +1,17 @@
 ---
-title: Code Block (Dynamic)
-description: A codeblock that also highlights code
-preview: dynamicCodeBlock
+title: Prompt Recipe Block
+description: Share editable prompt examples with your team inside documentation.
 ---
 
-## Usage
+## Purpose
 
-```tsx
-import { DynamicCodeBlock } from 'fumadocs-ui/components/dynamic-codeblock';
+Display prompt recipes that teammates can copy into Retro Studio. The block renders preset name, prompt text, and optional tips.
 
-<DynamicCodeBlock lang="ts" code='console.log("Hello World")' />;
-```
+## Editing content
 
-This component, different from the MDX [`CodeBlock`](/docs/mdx/codeblock) component, can be used without MDX.
-It highlights the code with Shiki and use the default component to render it.
+Add code blocks in MDX using triple backticks. Use frontmatter variables to inject dynamic tokens such as current brand or campaign.
 
-Features:
+## Variations
 
-- Can be pre-rendered on server
-- load languages and themes on browser lazily
+Switch between light, dark, or terminal themes to match the surrounding content.
 
-### Options
-
-```tsx
-import { DynamicCodeBlock } from 'fumadocs-ui/components/dynamic-codeblock';
-
-<DynamicCodeBlock
-  lang="ts"
-  code='console.log("Hello World")'
-  options={{
-    components: {
-      // add/override components
-    },
-    // or Shiki options
-  }}
-/>;
-```

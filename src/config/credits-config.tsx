@@ -12,7 +12,7 @@ import { websiteConfig } from './website';
  * Use this function when showing the credit packages to the user.
  *
  * docs:
- * https://mksaas.com/docs/config/credits
+ * https://ai-retro.com/docs/config/credits
  *
  * @returns The credit packages with translated content
  */

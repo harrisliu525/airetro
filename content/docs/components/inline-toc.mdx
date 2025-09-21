@@ -1,31 +1,17 @@
 ---
-title: Inline TOC
-description: Add Inline TOC into your documentation
-preview: inlineTOC
+title: Inline Table of Contents
+description: Give readers quick navigation within long documentation pages.
 ---
 
 ## Usage
 
-Pass TOC items to the component.
+Add the inline TOC to pages longer than 600 words. It automatically lists headings up to level three.
 
-```mdx
-import { InlineTOC } from 'fumadocs-ui/components/inline-toc';
+## Customization
 
-<InlineTOC items={toc} />
-```
+Set sticky behavior, compact mode, and highlight colors to match your brand guidelines.
 
-### Use in Pages
+## Accessibility
 
-You can add inline TOC into every page.
+Ensure the TOC appears before the main article in the DOM order so keyboard users can reach it quickly.
 
-```tsx
-<DocsPage>
-  ...
-  <InlineTOC items={toc} />
-  ...
-</DocsPage>
-```
-
-## Reference
-
-{/* <AutoTypeTable path="./content/docs/props.ts" name="InlineTOCProps" /> */}

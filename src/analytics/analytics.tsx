@@ -17,7 +17,7 @@ import { UmamiAnalytics } from './umami-analytics';
  * 2. only work if the environment variable for the analytics is set
  *
  * docs:
- * https://mksaas.com/docs/analytics
+ * https://ai-retro.com/docs/analytics
  */
 export function Analytics() {
   if (process.env.NODE_ENV !== 'production') {

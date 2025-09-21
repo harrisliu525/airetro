@@ -1,33 +1,17 @@
 ---
 title: Home Layout
-description: Shared layout for other pages
+description: Build compelling marketing hero sections for AI Retro.
 ---
 
-## Usage
+## Hero composition
 
-Add a navbar and search dialog across other pages.
+Pair a bold headline with social proof and a Retro Studio preview. Include a primary CTA and optional secondary action.
 
-```tsx title="/app/(home)/layout.tsx"
-import { HomeLayout } from 'fumadocs-ui/layouts/home';
-import { baseOptions } from '@/app/layout.config';
-import type { ReactNode } from 'react';
+## Responsive behavior
 
-export default function Layout({ children }: { children: ReactNode }) {
-  return <HomeLayout {...baseOptions}>{children}</HomeLayout>;
-}
-```
+Use stacked layouts on mobile and preserve aspect ratio for preview media. Test with light and dark themes.
 
-Create a [Route Group](https://nextjs.org/docs/app/building-your-application/routing/route-groups) to share the same layout across multiple pages.
+## Content guidance
 
-<Files>
-  <Folder name="(home)" defaultOpen>
-    <File name="page.tsx" />
-    <File name="layout.tsx" />
-  </Folder>
-  <Folder name="/docs">
-    <Folder name={'[[..slugs]]'}>
-      <File name="page.tsx" />
-    </Folder>
-    <File name="layout.tsx" />
-  </Folder>
-</Files>
+Highlight the core benefit in the first sentence and include key differentiators such as era accuracy and 4K exports.
+

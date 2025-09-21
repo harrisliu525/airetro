@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function HeroSection() {
   const t = useTranslations('HomePage.hero');
-  const linkIntroduction = 'https://x.com/mksaascom';
+  const linkIntroduction = 'https://x.com/airetrostudio';
   const highlights = [
     t('highlights.speed'),
     t('highlights.modern'),

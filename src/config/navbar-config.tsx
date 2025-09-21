@@ -12,7 +12,7 @@ import { websiteConfig } from './website';
  * NOTICE: used in client components only
  *
  * docs:
- * https://mksaas.com/docs/config/navbar
+ * https://ai-retro.com/docs/config/navbar
  *
  * @returns The navbar config with translated titles and descriptions
  */

@@ -6,7 +6,7 @@ import Script from 'next/script';
  * Clarity Analytics
  *
  * https://clarity.microsoft.com
- * https://mksaas.com/docs/analytics#clarity
+ * https://ai-retro.com/docs/analytics#clarity
  */
 export default function ClarityAnalytics() {
   if (process.env.NODE_ENV !== 'production') {

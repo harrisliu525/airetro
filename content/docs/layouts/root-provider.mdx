@@ -1,54 +1,15 @@
 ---
 title: Root Provider
-description: The context provider of Fumadocs UI.
+description: Configure providers that wrap all AI Retro documentation pages.
 ---
 
-The context provider of all the components, including `next-themes` and context
-for search dialog. It should be located at the root layout.
+## Included providers
 
-## Usage
+- Theme provider for dark/light mode
+- Analytics provider for engagement tracking
+- MDX provider for custom components
 
-```jsx
-import { RootProvider } from 'fumadocs-ui/provider';
+## Extending providers
 
-export default function Layout({ children }) {
-  return (
-    <html lang="en">
-      <body>
-        <RootProvider>{children}</RootProvider>
-      </body>
-    </html>
-  );
-}
-```
+Add translation, authentication, or feature flag providers as needed. Keep initialization lightweight to maintain fast page loads.
 
-### Search Dialog
-
-Customize or disable the search dialog with `search` option.
-
-```jsx
-<RootProvider
-  search={{
-    enabled: false,
-  }}
->
-  {children}
-</RootProvider>
-```
-
-Learn more from [Search](/docs/search).
-
-### Theme Provider
-
-Fumadocs supports light/dark modes with [`next-themes`](https://github.com/pacocoursey/next-themes).
-Customise or disable it with `theme` option.
-
-```jsx
-<RootProvider
-  theme={{
-    enabled: false,
-  }}
->
-  {children}
-</RootProvider>
-```

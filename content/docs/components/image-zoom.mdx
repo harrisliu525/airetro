@@ -1,34 +1,17 @@
 ---
-title: Zoomable Image
-description: Allow zoom-in images in your documentation
-preview: zoomImage
+title: Image Zoom Modal
+description: Let readers inspect AI Retro outputs and before-after comparisons in detail.
 ---
 
-## Usage
+## Adding zoomable images
 
-Replace `img` with `ImageZoom` in your MDX components.
+Wrap an ImageZoom component around any screenshot or render. Provide alt text that describes the subject and era.
 
-```tsx title="app/docs/[[...slug]]/page.tsx"
-import { ImageZoom } from 'fumadocs-ui/components/image-zoom';
-import defaultMdxComponents from 'fumadocs-ui/mdx';
+## Zoom experience
 
-return (
-  <MdxContent
-    components={{
-      ...defaultMdxComponents,
-      img: (props) => <ImageZoom {...(props as any)} />,
-      // other Mdx components
-    }}
-  />
-);
-```
+Users click to open a modal with keyboard and touch support. Captions appear below the image to provide context.
 
-Now image zoom will be automatically enabled on all images.
+## Performance notes
 
-```mdx
-![Test](/banner.png)
-```
+Compress assets and serve AVIF or WebP where supported to keep pages fast.
 
-### Image Optimization
-
-A default [`sizes` property](https://nextjs.org/docs/app/api-reference/components/image#sizes) will be defined for Next.js `<Image />` component if not specified.

@@ -1,57 +1,17 @@
 ---
-title: Steps
-description: Adding steps to your docs
-preview: steps
+title: Workflow Steps
+description: Communicate guided processes such as the Retro Studio pipeline.
 ---
 
-## Usage
+## Structure
 
-Put your steps into the `Steps` container.
+Each step includes a title, short description, and optional icon. Keep descriptions under 90 characters for readability.
 
-```mdx
-import { Step, Steps } from 'fumadocs-ui/components/steps';
+## Styling
 
-<Steps>
-<Step>
+Choose between horizontal or vertical layouts depending on available space. Progress indicators can be enabled for multi-phase tutorials.
 
-### Hello World
+## Content tips
 
-</Step>
+Use action-oriented verbs like "Upload", "Select", and "Share" to keep the flow energetic.
 
-<Step>
-
-### Hello World
-
-</Step>
-</Steps>
-```
-
-> We recommend using Tailwind CSS utility classes directly on Tailwind CSS projects.
-
-### Without imports
-
-You can use the Tailwind CSS utilities without importing it.
-
-```mdx
-<div className="fd-steps">
-  <div className="fd-step" />
-</div>
-```
-
-It supports adding step styles to only headings with arbitrary variants.
-
-```mdx
-<div className='fd-steps [&_h3]:fd-step'>
-
-### Hello World
-
-</div>
-```
-
-<div className='fd-steps [&_h3]:fd-step'>
-
-### Hello World
-
-You no longer need to use the step component anymore.
-
-</div>

@@ -19,7 +19,7 @@ import {
  * Amazon S3 storage provider implementation using AWS SDK v3
  *
  * docs:
- * https://mksaas.com/docs/storage
+ * https://ai-retro.com/docs/storage
  *
  * This provider works with Amazon S3 and compatible services like Cloudflare R2.
  */

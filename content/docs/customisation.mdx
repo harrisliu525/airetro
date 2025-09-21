@@ -1,51 +1,25 @@
 ---
-title: Overview
-description: An overview of Fumadocs UI
+title: Customizing Outputs
+description: Fine-tune AI Retro results with prompts, sliders, and brand presets.
 ---
 
-## Architecture
+## Adjust preset parameters
 
-### Page Tree
+Every preset exposes controls for grain strength, color warmth, vignette, and border width. Use the preview toggle to compare before and after.
 
-Navigation elements like sidebar take a [Page Tree](/docs/headless/page-tree) to render navigation links, it's a tree that describes all available pages and folders.
+## Adding custom prompts
 
-Normally, it is generated from your file structure using [`loader()`](/docs/headless/source-api), you can learn [how to organize pages](/docs/page-conventions).
+Provide short prompts describing background, props, wardrobe, or mood. Combine them with preset modifiers to keep results on brand.
 
-## Customisation
+## Using restoration mode
 
-### Layouts
+For scans or low-light images, enable Restoration to clean dust, rebalance color, and lift shadows before styling.
 
-You can use the exposed options of different layouts:
+## Saving brand presets
 
-<Cards>
-  <Card title="Docs Layout" href="/docs/layouts/docs">
-    Layout for docs
-  </Card>
-  <Card title="Docs Page" href="/docs/layouts/page">
-    Layout for docs content
-  </Card>
-  <Card title="Notebook Layout" href="/docs/layouts/notebook">
-    A more compact version of Docs Layout
-  </Card>
-  <Card title="Home Layout" href="/docs/layouts/home-layout">
-    Layout for other pages
-  </Card>
-</Cards>
+After dialing in a look, click **Save as brand preset**. Give it a name, assign tags, and decide if colleagues can edit it.
 
-### Components
+## Batch generating variations
 
-Fumadocs UI also offers styled components for interactive examples to enhance your docs, you can customise them with exposed props like `style` and `className`.
+Creator and Studio plans include batch generation for up to eight variants. Use this to test poses, expressions, or background changes quickly.
 
-See [Components](/docs/components).
-
-### Design System
-
-Since the design system is built on Tailwind CSS, you can customise it [with CSS Variables](/docs/theme#colors).
-
-### CLI
-
-If none of them suits you, Fumadocs CLI is a tool to install Fumadocs UI components and layouts to your codebase, similar to Shadcn UI. Allowing you to fully customise Fumadocs UI:
-
-```mdx
-npx fumadocs add
-```

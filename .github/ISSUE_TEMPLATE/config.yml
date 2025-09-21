@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: MkSaaS Community Support
-    url: https://github.com/MkSaaSHQ/mksaas-template/discussions
+  - name: AI Retro Community Support
+    url: https://github.com/ai-retro/ai-retro/discussions
     about: Please ask and answer questions here.
-  - name: MkSaaS Documentation
-    url: https://mksaas.com/docs
+  - name: AI Retro Documentation
+    url: https://ai-retro.com/docs
     about: Please check out the documentation here.

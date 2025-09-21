@@ -1,78 +1,47 @@
 ---
-title: Comparisons
-description: How is Fumadocs different from other existing frameworks?
+title: AI Retro vs Manual Editing
+description: How AI Retro compares with manual vintage editing when you need nostalgic portraits fast.
 image: /images/blog/post-2.png
 date: "2025-03-22"
 published: true
-categories: [news, company]
+categories: [product, news]
 author: fox
 ---
 
-## Nextra
+## Why creators compare AI Retro and manual editing
 
-Fumadocs is highly inspired by Nextra. For example, the Routing Conventions. That is why
-`meta.json` also exists in Fumadocs.
+Brands love the control of Photoshop and Lightroom, but nostalgia campaigns move fast. AI Retro was built to deliver era-specific portraits in seconds without losing quality. This article breaks down when to rely on AI and when manual retouching still shines.
 
-Nextra is more opinionated than Fumadocs. Fumadocs is accelerated by App Router. As a result, It provides many server-side functions, and you have to
-configure things manually compared to simply editing a configuration file.
+## Speed and consistency at scale
 
-Fumadocs works great if you want more control over everything, such as
-adding it to an existing codebase or implementing advanced routing.
+Manual retouching can take 45 minutes per image and every edit depends on the designer's mood. AI Retro analyzes lighting, applies decade-accurate grain, and exports 4K files in under 15 seconds. Teams stay on schedule and the look stays consistent across hundreds of assets.
 
-### Feature Table
+### Feature comparison
 
-| Feature             | Fumadocs     | Nextra                    |
-| ------------------- | ------------ | ------------------------- |
-| Static Generation   | Yes          | Yes                       |
-| Cached              | Yes          | Yes                       |
-| Light/Dark Mode     | Yes          | Yes                       |
-| Syntax Highlighting | Yes          | Yes                       |
-| Table of Contents   | Yes          | Yes                       |
-| Full-text Search    | Yes          | Yes                       |
-| i18n                | Yes          | Yes                       |
-| Last Git Edit Time  | Yes          | Yes                       |
-| Page Icons          | Yes          | Yes, via `_meta.js` files |
-| RSC                 | Yes          | Yes                       |
-| Remote Source       | Yes          | Yes                       |
-| SEO                 | Via Metadata | Yes                       |
-| Built-in Components | Yes          | Yes                       |
-| RTL Layout          | Yes          | Yes                       |
+| Workflow | AI Retro | Manual editing |
+| -------- | -------- | -------------- |
+| Turnaround time | 10-15 seconds | 30-60 minutes |
+| Era accuracy | Pre-trained decade presets | Depends on designer reference |
+| Background control | Prompt based swaps and library scenes | Masking and compositing required |
+| Caption styling | Built-in handwriting fonts | Manual text creation |
+| Collaboration | Shareable brand presets | Layer files or long guides |
 
-### Additional Features
+## When manual editing still wins
 
-Features supported via 3rd party libraries like [TypeDoc](https://typedoc.org) will not be listed here.
+Manual editing is perfect for complex composites, heavy illustration, or projects that demand bespoke brushwork. We often see teams generate base imagery in AI Retro, then add typography or motion in their standard creative suite.
 
-| Feature                    | Fumadocs | Nextra |
-| -------------------------- | -------- | ------ |
-| OpenAPI Integration        | Yes      | No     |
-| TypeScript Docs Generation | Yes      | No     |
-| TypeScript Twoslash        | Yes      | Yes    |
+## Recommended hybrid workflow
 
-## Mintlify
+1. Generate retro portraits in AI Retro with the correct aspect ratio and preset.
+2. Export layered PNGs and send them to your design app via integrations.
+3. Add illustration, type, or collage elements manually where the AI cannot infer context.
+4. Feed successful manual tweaks back into AI Retro's prompt library so the system learns your brand preferences.
 
-Mintlify is a documentation service, as compared to Fumadocs, it offers a free tier but isn't completely free and open source.
+## Key takeaways for your next campaign
 
-Fumadocs is not as powerful as Mintlify, for example, the OpenAPI integration of Mintlify.
-As the creator of Fumadocs, I wouldn't recommend switching to Fumadocs from Mintlify if you're satisfied with the current way you build docs.
-However, I believe Fumadocs is a suitable tool for all Next.js developers who want to have elegant docs.
+- Use AI Retro for speed, consistency, and accurate film simulation.
+- Layer manual edits when you need complex composites or brand-specific art direction.
+- Document your favorite prompts and adjustments so the entire team can reuse them.
 
-## Docusaurus
+Need help deciding which workflow fits a specific shoot? Reach out to the AI Retro team and we will audit your current process for free.
 
-Docusaurus is a powerful framework based on React.js. It offers many cool
-features with plugins and custom themes.
-
-### Better DX
-
-Since Fumadocs is built on the top of Next.js, you'll have to start the Next.js dev
-server every time to review changes, and initial boilerplate code is relatively more
-compared to Docusaurus.
-
-For a simple docs, Docusaurus might be a better choice if you don't need any Next.js specific functionality.
-
-However, when you want to use Next.js, or seek extra customizability like tuning default UI components, Fumadocs could be a better choice.
-
-### Plugins
-
-You can easily achieve many things with plugins, their ecosystem is indeed larger and maintained by many contributors.
-
-In comparison, the flexibility of Fumadocs allows you to implement them on your own, it may take longer to tune it to your satisfaction.

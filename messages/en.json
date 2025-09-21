@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "name": "aipolaroid",
-    "title": "AI Polaroid Generator — Free; Two-Photo Hug | aipolaroid",
-    "description": "Create Polaroid-style photos free. Upload 1–2 photos; classic border, subtle grain, date/handwriting. Watermark-free PNGs. Two-Photo Hug & Celebrity modes."
+    "name": "ai-retro",
+    "title": "AI Retro Photo Generator | Vintage Portraits in Seconds",
+    "description": "AI Retro turns everyday photos into 70s, 80s, and 90s inspired portraits. Upload a selfie, choose a retro era, and download high-resolution vintage photos for social media, prints, or gifting."
   },
   "Common": {
     "premium": "Premium",
@@ -47,21 +47,21 @@
   },
   "PricingPage": {
     "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
+    "description": "Flexible plans for creators, teams, and studios",
+    "subtitle": "Pay for the retro renders you need",
     "monthly": "Monthly",
     "yearly": "Yearly",
     "PricingCard": {
-      "freePrice": "$0",
+      "freePrice": "",
       "perMonth": "/month",
       "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
+      "popular": "Most popular",
+      "currentPlan": "Current plan",
+      "yourCurrentPlan": "Your current plan",
+      "getStartedForFree": "Start for free",
+      "getLifetimeAccess": "Get lifetime access",
+      "getStarted": "Upgrade now",
+      "notAvailable": "Not available",
       "daysTrial": "{days}-day free trial"
     },
     "CheckoutButton": {
@@ -71,65 +71,65 @@
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Basic features for personal use",
+      "name": "Starter",
+      "description": "Test AI Retro with essential creative tools",
       "features": {
-        "feature-1": "Up to 3 projects",
-        "feature-2": "1 GB storage",
-        "feature-3": "Basic analytics",
+        "feature-1": "40 retro renders per month",
+        "feature-2": "Access to 10 core era presets",
+        "feature-3": "HD 1080p downloads",
         "feature-4": "Community support"
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Brand preset sharing",
+        "limit-2": "Batch generation",
+        "limit-3": "Commercial usage license"
       }
     },
     "pro": {
-      "name": "Pro",
-      "description": "Advanced features for professionals",
+      "name": "Creator",
+      "description": "Scale vintage storytelling across channels",
       "features": {
-        "feature-1": "Unlimited projects",
-        "feature-2": "10 GB storage",
-        "feature-3": "Advanced analytics",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "400 retro renders per month",
+        "feature-2": "Full Style Library with new monthly packs",
+        "feature-3": "4K exports and background designer",
+        "feature-4": "Caption builder and brand presets",
+        "feature-5": "Commercial usage license"
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Priority support",
+        "limit-2": "Team workspace seats"
       }
     },
     "lifetime": {
-      "name": "Lifetime",
-      "description": "Premium features with one-time payment",
+      "name": "Studio",
+      "description": "One time purchase for agencies and boutique labs",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
+        "feature-1": "All Creator features",
+        "feature-2": "Unlimited retro renders",
+        "feature-3": "Team workspaces with 10 seats",
+        "feature-4": "Dedicated success manager",
+        "feature-5": "Custom style training sessions",
+        "feature-6": "Enterprise grade security",
         "feature-7": "Lifetime updates"
       }
     }
   },
   "CreditPackages": {
     "basic": {
-      "name": "Basic",
-      "description": "Basic credits package description"
+      "name": "Retro Boost 100",
+      "description": "Add 100 extra renders for seasonal drops and social challenges."
     },
     "standard": {
-      "name": "Standard",
-      "description": "Standard credits package description"
+      "name": "Campaign 250",
+      "description": "Get 250 credits for limited edition launches and merch bundles."
     },
     "premium": {
-      "name": "Premium",
-      "description": "Premium credits package description"
+      "name": "Studio 500",
+      "description": "Bundle 500 renders for agencies delivering multi client projects."
     },
     "enterprise": {
-      "name": "Enterprise",
-      "description": "Enterprise credits package description"
+      "name": "Enterprise 1K",
+      "description": "1,000 credits for brands running continuous nostalgia campaigns."
     }
   },
   "NotFoundPage": {
@@ -144,25 +144,25 @@
   },
   "AboutPage": {
     "title": "About",
-    "description": "This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
-    "authorName": "MkSaaS",
-    "authorBio": "AI SaaS Boilerplate",
-    "introduction": "👋 Hi there! This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
-    "talkWithMe": "Talk with me",
-    "followMe": "Follow me on X"
+    "description": "AI Retro helps creators turn everyday photos into timeless retro stories.",
+    "authorName": "AI Retro",
+    "authorBio": "Vintage imaging platform",
+    "introduction": "AI Retro is built by photographers, color scientists, and machine learning engineers who grew up on instant film and camcorder tapes. We design tools that let anyone create nostalgic visuals with commercial quality results.",
+    "talkWithMe": "Chat with the team",
+    "followMe": "Follow us on X"
   },
   "ChangelogPage": {
     "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "description": "Follow new AI Retro releases, style packs, and integrations.",
+    "subtitle": "Latest updates from the Retro Studio"
   },
   "ContactPage": {
     "title": "Contact",
-    "description": "We'll help you find the right plan for your business",
-    "subtitle": "We'll help you find the right plan for your business",
+    "description": "We help you ship nostalgic visuals that convert.",
+    "subtitle": "Tell us how we can support your retro vision",
     "form": {
-      "title": "Contact Us",
-      "description": "If you have any questions or feedback, please reach out to our team",
+      "title": "Contact AI Retro",
+      "description": "Reach out for partnerships, enterprise access, or support questions.",
       "name": "Name",
       "email": "Email",
       "message": "Message",
@@ -179,12 +179,12 @@
   },
   "WaitlistPage": {
     "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
+    "description": "Join the AI Retro waitlist for exclusive style drops.",
+    "subtitle": "Be first to try new era packs and beta features",
     "disabledMessage": "The waitlist is currently unavailable.",
     "form": {
-      "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
+      "title": "Join the Style Drop List",
+      "description": "Leave your email to receive presets, tutorials, and early access invites.",
       "email": "Email",
       "subscribe": "Subscribe",
       "subscribing": "Subscribing...",
@@ -195,8 +195,8 @@
   },
   "Newsletter": {
     "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
+    "subtitle": "Retro style dispatch",
+    "description": "Subscribe for new presets, case studies, and behind the scenes updates from AI Retro.",
     "form": {
       "email": "Email",
       "subscribe": "Subscribe",
@@ -274,8 +274,8 @@
   },
   "BlogPage": {
     "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
+    "description": "Guides and inspiration for AI Retro storytellers.",
+    "subtitle": "Latest tutorials, case studies, and retro trend reports",
     "author": "Author",
     "categories": "Categories",
     "tableOfContents": "Table of Contents",
@@ -293,19 +293,19 @@
     "previousPage": "Previous",
     "nextPage": "Next",
     "chooseLanguage": "Select language",
-    "title": "MkSaaS Docs",
+    "title": "AI Retro Docs",
     "homepage": "Homepage"
   },
   "PremiumContent": {
     "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
+    "description": "Upgrade to access pro workflows, preset packs, and commercial usage guides.",
+    "upgradeCta": "Upgrade now",
+    "benefit1": "Advanced tutorials and case studies",
+    "benefit2": "Exclusive preset drops",
     "benefit3": "Cancel anytime",
     "signIn": "Sign In",
     "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
+    "loginDescription": "This content is reserved for AI Retro Pro members. Sign in to access the full guide.",
     "checkingAccess": "Checking access...",
     "loadingContent": "Loading full content..."
   },
@@ -324,27 +324,27 @@
         "title": "Docs"
       },
       "ai": {
-        "title": "AI Tools",
+        "title": "Retro Studio",
         "items": {
           "text": {
-            "title": "AI Text",
-            "description": "Show how to use AI to write stunning text"
+            "title": "Style Library",
+            "description": "Browse 40+ curated retro eras and signature looks."
           },
           "image": {
-            "title": "AI Image",
-            "description": "Show how to use AI to generate beautiful images"
+            "title": "Retro Studio",
+            "description": "Upload photos and recreate vintage lighting, film grain, and color."
           },
           "chat": {
-            "title": "AI Chat",
-            "description": "Show how to use AI to chat with your customers"
+            "title": "Pose Coach",
+            "description": "Get prompts for outfits, poses, and captions that match each era."
           },
           "video": {
-            "title": "AI Video",
-            "description": "Show how to use AI to generate amazing videos"
+            "title": "Campaign Planner",
+            "description": "Plan multi-image drops and seasonal storyboards for launches."
           },
           "audio": {
-            "title": "AI Audio",
-            "description": "Show how to use AI to generate wonderful audio"
+            "title": "Brand Presets",
+            "description": "Share AI Retro recipes so every teammate stays on-brand."
           }
         }
       },
@@ -353,35 +353,35 @@
         "items": {
           "about": {
             "title": "About",
-            "description": "Learn more about our company, mission, and values"
+            "description": "Learn how AI Retro blends AI and analog craft."
           },
           "contact": {
             "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
+            "description": "Partner with us or request priority support."
           },
           "waitlist": {
             "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
+            "description": "Join style drop announcements and new beta invites."
           },
           "changelog": {
             "title": "Changelog",
-            "description": "See the latest updates to our products"
+            "description": "Track new Retro Studio releases."
           },
           "roadmap": {
             "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
+            "description": "See upcoming integrations and era packs."
           },
           "cookiePolicy": {
             "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
+            "description": "How we use cookies to improve AI Retro."
           },
           "privacyPolicy": {
             "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
+            "description": "Learn how we protect the photos you upload."
           },
           "termsOfService": {
             "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
+            "description": "The agreement that governs AI Retro usage."
           }
         }
       },
@@ -446,12 +446,12 @@
       }
     },
     "footer": {
-      "tagline": "AI Polaroid generator for instant-film nostalgia",
+      "tagline": "AI Retro photo generator for nostalgic storytelling",
       "product": {
         "title": "Product",
         "items": {
           "features": "Features",
-          "pricing": "Credits",
+          "pricing": "Plans and credits",
           "faq": "FAQ"
         }
       },
@@ -484,7 +484,7 @@
     "avatar": {
       "dashboard": "Dashboard",
       "billing": "Billing",
-      "credits": "Credits",
+      "credits": "Retro credits",
       "settings": "Settings"
     }
   },
@@ -748,8 +748,8 @@
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
-      "button": "Upgrade"
+      "description": "Unlock unlimited retro renders, 4K exports, and brand presets.",
+      "button": "Upgrade to AI Retro Pro"
     }
   },
   "Mail": {
@@ -770,25 +770,25 @@
       "subject": "Reset your password"
     },
     "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "body": "Thank you for subscribing to AI Retro style drops. We will send new presets, tips, and feature releases straight to your inbox.",
+      "subject": "Welcome to AI Retro style drops"
     },
     "contactMessage": {
       "name": "Name: {name}",
       "email": "Email: {email}",
       "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "subject": "AI Retro website contact message"
     }
   },
   "HomePage": {
-    "title": "AI Polaroid Generator",
-    "description": "Turn your photos into instant-film keepsakes — free, fast, and watermark-free.",
+    "title": "AI Retro Photo Generator",
+    "description": "Transform your images into vintage portraits that look like they were shot decades ago.",
     "hero": {
-      "title": "Free AI Polaroid Generator — Real Instant-Film Look",
-      "description": "Upload 1–2 photos and get classic white borders, thicker bottom, subtle grain, and optional date stamp in one click. Start with trending modes like “Hug My Younger Self” or “Celebrity Polaroid” — more styles on the way.",
-      "introduction": "Introducing aipolaroid",
-      "primary": "Generate for free",
-      "secondary": "See sample Polaroids",
+      "title": "AI Retro Photo Generator - Vintage Portraits in Seconds",
+      "description": "Upload a selfie, team photo, or product shot, choose an era, and watch AI Retro rebuild authentic film grain, lighting, and color.",
+      "introduction": "Meet AI Retro",
+      "primary": "Start generating",
+      "secondary": "View retro gallery",
       "badge": {
         "status": "Live"
       },
@@ -796,393 +796,357 @@
         "placeholder": "Enter your email"
       },
       "highlights": {
-        "speed": "1–2 photos, one click",
-        "modern": "Authentic instant-film details",
-        "custom": "Watermark-free PNGs"
+        "speed": "Retro makeover in 10 seconds",
+        "modern": "Authentic 1950s film to Y2K neon",
+        "custom": "Watermark-free 4K exports"
       }
     },
     "generator": {
-      "title": "Try the AI Polaroid playground",
-      "description": "Test with sample photos or your own and watch borders, grain, date stamps, and captions render in real time."
+      "title": "Test the Retro Studio",
+      "description": "Upload a sample photo and preview how AI Retro applies nostalgia filters, background swaps, and film grain in real time."
     },
     "howToUse": {
-      "label": "How aipolaroid works",
-      "title": "Create your AI Polaroid in three quick steps",
-      "description": "Editable, prefilled prompts for consistent instant-film results.",
+      "label": "How AI Retro works",
+      "title": "Turn any photo into a retro portrait in three steps",
+      "description": "Our pipeline blends pose detection, lighting analysis, and era accurate color science.",
       "steps": {
         "upload": {
-          "title": "Upload 1–2 photos",
-          "description": "Use a present-day selfie plus an optional childhood photo or a rights-cleared celebrity image."
+          "title": "Upload your photo",
+          "description": "Use a selfie, couple portrait, or product image. JPG and PNG up to 12 MB are supported."
         },
         "mode": {
-          "title": "Pick a mode or style",
-          "description": "Start with “Hug My Younger Self” or “Celebrity Polaroid,” then explore more styles as we roll them out."
+          "title": "Pick an era or preset",
+          "description": "Choose curated looks like 70s Studio Glam, 80s Arcade Neon, 90s Camcorder Chill, or build your own style."
         },
         "generate": {
-          "title": "Generate",
-          "description": "Click Generate to get a high-res, watermark-free PNG in seconds — then tweak prompts for new variations."
+          "title": "Generate and download",
+          "description": "AI Retro renders HD portraits with optional backgrounds, captions, and date stamps ready for print and social sharing."
         }
       },
-      "secondaryButton": "See demo"
+      "secondaryButton": "Watch the workflow"
     },
     "logocloud": {
-      "title": "Your favorite companies are our partners"
+      "title": "Loved by content teams, photographers, and boutique print labs"
     },
     "integration": {
       "title": "Integrations",
-      "subtitle": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "learnMore": "Learn More",
+      "subtitle": "Send retro portraits wherever you publish",
+      "description": "Move finished images into your creative stack without manual downloads.",
+      "learnMore": "Learn more",
       "items": {
         "item-1": {
-          "title": "Google Gemini",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+          "title": "Canva",
+          "description": "Drop AI Retro portraits into templates for quick social posts and reels."
         },
         "item-2": {
-          "title": "Replit",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+          "title": "Shopify",
+          "description": "Swap product photography with retro hero shots that convert nostalgia lovers."
         },
         "item-3": {
-          "title": "MagicUI",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+          "title": "Notion",
+          "description": "Document style presets and campaign notes for your whole team."
         },
         "item-4": {
-          "title": "VSCodium",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+          "title": "Printful",
+          "description": "Send ready to print files to merch and framed art workflows."
         },
         "item-5": {
-          "title": "MediaWiki",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+          "title": "Zapier",
+          "description": "Automate uploads, approvals, and delivery across thousands of apps."
         },
         "item-6": {
-          "title": "Google PaLM",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+          "title": "Instagram",
+          "description": "Schedule retro drops with optimized captions and trending hashtags."
         }
       }
     },
     "integration2": {
-      "title": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "primaryButton": "Get Started",
-      "secondaryButton": "See Demo"
+      "title": "Plug AI Retro into your existing workflow",
+      "description": "Sync finished shots to storage, design tools, storefronts, and team boards.",
+      "primaryButton": "Connect integrations",
+      "secondaryButton": "See automation recipes"
     },
     "features": {
-      "title": "Why creators choose aipolaroid",
-      "subtitle": "Retro polish without manual editing",
-      "description": "Instant-film details are built in — from borders and grain to date stamps and handwriting.",
+      "title": "Why storytellers choose AI Retro",
+      "subtitle": "Retro accuracy without manual editing",
+      "description": "AI Retro rebuilds film traits so every export looks like it was captured on real analog gear.",
       "items": {
         "item-1": {
-          "title": "Authentic instant-film finish",
-          "description": "Clean white borders with thicker bottoms, subtle grain, natural skin, and optional date/handwriting."
+          "title": "Era intelligent styling",
+          "description": "Each preset adjusts lighting, tone curves, grain, and typography to match the chosen decade."
         },
         "item-2": {
-          "title": "Modes & styles that grow",
-          "description": "Launch with Younger-Self and Celebrity; add more styles over time without changing your workflow."
+          "title": "Smart retouch and restoration",
+          "description": "Automatic skin smoothing, dust removal, and color repair keep subjects sharp yet natural."
         },
         "item-3": {
-          "title": "Fast and consistent",
-          "description": "One-click renders with editable prompts for reliable, share-ready results."
+          "title": "Background director",
+          "description": "Swap in studios, arcades, diners, or custom prompts with depth aware masking."
         },
         "item-4": {
-          "title": "Privacy-friendly downloads",
-          "description": "High-resolution, watermark-free PNGs ready for Instagram, scrapbooks, or prints."
+          "title": "HD and print ready exports",
+          "description": "Download 4K PNGs, square reels, or 4x6 print crops without watermarks."
         }
       }
     },
     "features2": {
-      "title": "Built for social, printing, and nostalgia drops",
-      "subtitle": "Dial in every detail — no Photoshop needed",
-      "description": "Adjust prompts, ratios, and captions while our AI handles the vintage finish for feeds or 4×6 prints.",
-      "feature-1": "Caption variables for dates, locations, and signatures on the thicker bottom border.",
-      "feature-2": "Save favorite prompts and reuse them across modes and upcoming styles.",
-      "feature-3": "Batch up to four variations to compare poses and lighting side by side.",
-      "feature-4": "Download high-res PNGs optimized for sharing and printing."
+      "title": "Built for campaigns, gifts, and community challenges",
+      "subtitle": "Control every detail without touching Photoshop",
+      "description": "Fine tune color, film texture, and typography while AI Retro handles the heavy lifting.",
+      "feature-1": "40+ retro aesthetics with adjustable grain, color cast, aspect ratio, and lighting mood.",
+      "feature-2": "Caption builder with handwriting fonts for dates, locations, and signature notes.",
+      "feature-3": "Batch up to eight variations to compare poses and backgrounds side by side.",
+      "feature-4": "Brand preset sharing so teams can reuse approved recipes across drops."
     },
     "features3": {
-      "title": "Features3",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
+      "title": "Use cases",
+      "subtitle": "Where AI Retro delivers instant nostalgia",
+      "description": "Teams across industries use AI Retro to turn modern visuals into timeless classics.",
       "items": {
         "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here"
+          "title": "Social media launches",
+          "description": "Announce product drops or events with era specific carousels that stop the scroll."
         },
         "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here"
+          "title": "Personalized gifts",
+          "description": "Create keepsake portraits for weddings, anniversaries, or milestone birthdays in seconds."
         },
         "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here"
+          "title": "Education and museums",
+          "description": "Illustrate history lessons and exhibits with credible visuals that feel archival."
         },
         "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here"
+          "title": "Brand storytelling",
+          "description": "Give campaigns a coherent nostalgic vibe without hiring specialty photographers."
         },
         "item-5": {
-          "title": "Product Feature Five",
-          "description": "Please write the detailed description of feature five here"
+          "title": "Streaming and gaming avatars",
+          "description": "Craft retro profile art, posters, and overlays that match your community aesthetic."
         },
         "item-6": {
-          "title": "Product Feature Six",
-          "description": "Please write the detailed description of feature six here"
+          "title": "Product merchandising",
+          "description": "Transform catalog shots into retro posters for merch, packaging, and vinyl style covers."
         }
       }
     },
     "pricing": {
       "title": "Pricing",
-      "subtitle": "Pricing",
-      "description": "Choose the plan that works best for you"
+      "subtitle": "Flexible plans for creators and teams",
+      "description": "Start for free, then upgrade when you need more retro renders."
     },
     "faqs": {
-      "title": "AI Polaroid FAQs",
-      "subtitle": "Everything you need before you generate",
+      "title": "AI Retro FAQs",
+      "subtitle": "Answers before you start generating",
       "items": {
         "item-1": {
-          "question": "Do I need an account?",
-          "answer": "You can preview with sample images right away. Creating Polaroids from your own photos may require sign-in to keep the service reliable."
+          "question": "What kind of photos work best?",
+          "answer": "Upload clear photos with faces or products in focus. AI Retro supports PNG and JPG up to 12 MB and automatically frames and crops for the selected ratio."
         },
         "item-2": {
-          "question": "How do credits work?",
-          "answer": "Sign-up bonus: 50 credits. Free Plan: 50 credits added monthly. Each render costs 10 credits. Unused monthly credits don’t roll over. Rates may change as we improve the service."
+          "question": "How many retro styles are included?",
+          "answer": "The Style Library launches with 40 preset eras covering 1950s studio portraits through Y2K camcorder vibes. New style packs ship every month."
         },
         "item-3": {
-          "question": "Can I upload celebrity or childhood photos?",
-          "answer": "Yes — only if you own or are permitted to use them. Personal, non-commercial use; no impersonation or deceptive use."
+          "question": "Can I use AI Retro for commercial projects?",
+          "answer": "Yes. Paid plans include a commercial license so you can publish renders across marketing, client work, and merchandise."
         },
         "item-4": {
-          "question": "Are downloads watermarked?",
-          "answer": "No. Exports are high-resolution PNGs without watermarks."
+          "question": "Do you store my original photos?",
+          "answer": "Original uploads stay encrypted and are auto deleted after 30 days unless you save them inside a preset collection."
         },
         "item-5": {
-          "question": "What Polaroid details are included?",
-          "answer": "Classic white border with a thicker bottom, subtle grain, natural skin tones, and optional date stamp plus handwritten caption."
+          "question": "Does AI Retro restore scans of old photos?",
+          "answer": "Upload scans and enable Restoration mode. We remove dust, repair color, and reapply accurate film grain for a fresh yet faithful look."
         },
         "item-6": {
-          "question": "Will you add more styles?",
-          "answer": "Yes. We’re starting with Younger-Self and Celebrity and will add more styles regularly."
+          "question": "Can I customize backgrounds and captions?",
+          "answer": "Yes. Choose set backdrops, describe your own scene, and use the caption builder to add handwritten notes or timestamps."
         }
       }
     },
     "testimonials": {
-      "title": "Testimonials",
-      "subtitle": "What our customers are saying",
+      "title": "What creators say",
+      "subtitle": "Feedback from AI Retro beta customers",
       "items": {
         "item-1": {
-          "name": "Jonathan Yombo",
-          "role": "Software Engineer",
-          "image": "https://randomuser.me/api/portraits/men/1.jpg",
-          "quote": "MkSaaS is really extraordinary and very practical, no need to break your head. A real gold mine."
+          "name": "Samantha Reed",
+          "role": "TikTok content creator",
+          "image": "https://randomuser.me/api/portraits/women/44.jpg",
+          "quote": "AI Retro made my 80s arcade series go viral. The film grain and neon glow look like real analog video without spending hours in editing apps."
         },
         "item-2": {
-          "name": "Yves Kalume",
-          "role": "GDE - Android",
-          "image": "https://randomuser.me/api/portraits/men/6.jpg",
-          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to MkSaaS."
+          "name": "David Chen",
+          "role": "Brand designer",
+          "image": "https://randomuser.me/api/portraits/men/32.jpg",
+          "quote": "I build preset collections for clients and share them with a click. Every teammate can recreate the exact same retro look for campaigns."
         },
         "item-3": {
-          "name": "Yucel Faruksahan",
-          "role": "Tailkits Creator",
-          "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "Great work on MkSaaS template. This is one of the best personal website that I have seen so far :)"
+          "name": "Lina Ortega",
+          "role": "Wedding photographer",
+          "image": "https://randomuser.me/api/portraits/women/68.jpg",
+          "quote": "Couples love receiving a retro portrait in their gallery. AI Retro nails skin tones, keeps details sharp, and exports print ready files."
         },
         "item-4": {
-          "name": "Anonymous author",
-          "role": "Product Manager",
-          "image": "https://randomuser.me/api/portraits/men/8.jpg",
-          "quote": "I downloaded the one of MkSaaS template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
+          "name": "Harper Mills",
+          "role": "Ecommerce founder",
+          "image": "https://randomuser.me/api/portraits/women/12.jpg",
+          "quote": "We refresh hero imagery for every seasonal drop. Retro presets give the store an editorial feel and boost conversion on nostalgic collections."
         },
         "item-5": {
-          "name": "Shekinah Tshiokufila",
-          "role": "Senior Software Engineer",
-          "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "MkSaaS is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
+          "name": "Noah Patel",
+          "role": "History teacher",
+          "image": "https://randomuser.me/api/portraits/men/65.jpg",
+          "quote": "My students engage more when lessons include AI Retro visuals. The restoration mode brings archival photos back to life with accurate color."
         },
         "item-6": {
-          "name": "Oketa Fred",
-          "role": "Fullstack Developer",
-          "image": "https://randomuser.me/api/portraits/men/2.jpg",
-          "quote": "I absolutely love MkSaaS! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
-        },
-        "item-7": {
-          "name": "Zeki",
-          "role": "Founder of ChatExtend",
-          "image": "https://randomuser.me/api/portraits/men/5.jpg",
-          "quote": "MkSaaS is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
-        },
-        "item-8": {
-          "name": "Joseph Kitheka",
-          "role": "Fullstack Developer",
-          "image": "https://randomuser.me/api/portraits/men/9.jpg",
-          "quote": "MkSaaS has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
-        },
-        "item-9": {
-          "name": "Khatab Wedaa",
-          "role": "MerakiUI Creator",
-          "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "MkSaaS is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
-        },
-        "item-10": {
-          "name": "Rodrigo Aguilar",
-          "role": "TailwindAwesome Creator",
-          "image": "https://randomuser.me/api/portraits/men/11.jpg",
-          "quote": "I love MkSaaS ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
-        },
-        "item-11": {
-          "name": "Eric Ampire",
-          "role": "@GoogleDevExpert for Android",
-          "image": "https://randomuser.me/api/portraits/men/12.jpg",
-          "quote": "MkSaaS templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
-        },
-        "item-12": {
-          "name": "Roland Tubonge",
-          "role": "Software Engineer",
-          "image": "https://randomuser.me/api/portraits/men/13.jpg",
-          "quote": "MkSaaS is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
+          "name": "Jessie Alvarez",
+          "role": "Marketing manager",
+          "image": "https://randomuser.me/api/portraits/women/25.jpg",
+          "quote": "Batch generation and caption presets help us publish weekly nostalgia campaigns without chasing freelancers or retouching manually."
         }
       }
     },
     "stats": {
-      "title": "Stats",
-      "subtitle": "MkSaaS in numbers",
-      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
+      "title": "Impact",
+      "subtitle": "AI Retro in numbers",
+      "description": "We help brands and creators deliver nostalgic storytelling at scale.",
       "items": {
         "item-1": {
-          "title": "Stars on GitHub"
+          "title": "2.5M+ retro renders delivered"
         },
         "item-2": {
-          "title": "Active Users"
+          "title": "11 second average turnaround"
         },
         "item-3": {
-          "title": "Powered Apps"
+          "title": "6.2K preset collections shared"
         }
       }
     },
     "calltoaction": {
-      "title": "Turn every selfie into a Polaroid memory",
-      "description": "One click to instant-film looks — free, fast, and watermark-free.",
-      "primaryButton": "Generate for free",
-      "secondaryButton": "Explore Younger-Self ideas"
+      "title": "Bring retro magic to your next launch",
+      "description": "Start free and create vintage ready portraits without hiring a studio.",
+      "primaryButton": "Start generating",
+      "secondaryButton": "Download sample pack"
     }
   },
   "AITextPage": {
-    "title": "AI Text Demo",
-    "description": "Analyze web content with AI to extract key information, features, and insights",
-    "content": "Web Content Analyzer",
-    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "title": "Style Library",
+    "description": "Generate detailed prompts and presets for AI Retro.",
+    "content": "Retro Style Library",
+    "subtitle": "Describe the mood you need and AI Retro suggests matching era recipes.",
     "analyzer": {
-      "title": "Web Content Analyzer",
-      "description": "Analyze any website content using AI to extract structured information",
-      "placeholder": "Enter website URL (e.g., https://example.com)",
-      "button": "Analyze Website",
+      "title": "Style Prompt Builder",
+      "description": "Craft detailed guidance for your retro portraits.",
+      "placeholder": "Describe the scene or emotion you want to recreate",
+      "button": "Generate style recipe",
       "loading": {
-        "scraping": "Scraping website content...",
-        "analyzing": "Analyzing content with AI..."
+        "scraping": "Collecting reference inspiration...",
+        "analyzing": "Building your retro recipe..."
       },
       "results": {
-        "title": "Analysis Results",
-        "newAnalysis": "Analyze Another Website",
+        "title": "Suggested recipe",
+        "newAnalysis": "Create another recipe",
         "sections": {
-          "title": "Title",
-          "description": "Description",
-          "introduction": "Introduction",
-          "features": "Features",
-          "pricing": "Pricing",
-          "useCases": "Use Cases",
-          "screenshot": "Website Screenshot"
+          "title": "Look name",
+          "description": "Style overview",
+          "introduction": "Lighting and mood",
+          "features": "Key styling details",
+          "pricing": "Recommended settings",
+          "useCases": "Best use cases",
+          "screenshot": "Reference inspiration"
         }
       },
       "errors": {
-        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
-        "analysisError": "Failed to analyze website. Please try again.",
+        "invalidUrl": "Please describe the look you want to create.",
+        "analysisError": "We could not build a recipe. Try adjusting your description.",
         "networkError": "Network error. Please check your connection and try again.",
-        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+        "insufficientCredits": "You need more credits to build additional recipes."
       }
     },
     "features": {
       "scraping": {
-        "title": "Smart Web Scraping",
-        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+        "title": "Mood inspiration",
+        "description": "Summarize the tone, lighting, and wardrobe that define your chosen era."
       },
       "analysis": {
-        "title": "AI-Powered Analysis",
-        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+        "title": "Prompt guidance",
+        "description": "Generate camera angles, film stock references, and caption starters."
       },
       "results": {
-        "title": "Structured Results",
-        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+        "title": "Reusable presets",
+        "description": "Save recipes so your team recreates the same retro look every time."
       }
     }
   },
   "AIImagePage": {
-    "title": "AI Image",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "title": "Retro Studio",
+    "description": "Upload photos and render high fidelity retro portraits in seconds."
   },
   "AIChatPage": {
-    "title": "AI Chat",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "title": "Pose Coach",
+    "description": "Ask for outfit, pose, and caption ideas that match each retro preset."
   },
   "AIVideoPage": {
-    "title": "AI Video",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "title": "Campaign Planner",
+    "description": "Storyboard nostalgia driven launches and sequence multi image drops."
   },
   "AIAudioPage": {
-    "title": "AI Audio",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "title": "Brand Presets",
+    "description": "Share reusable AI Retro recipes so every creator stays on brand."
   },
   "SettingsNotificationsPage": {
     "disabledMessage": "Notifications are currently disabled."
   },
   "AIImagePlayground": {
     "upload": {
-      "title": "Upload a reference image",
-      "subtitle": "Supported formats: JPG, PNG, WEBP. File size must be under 12MB.",
+      "title": "Upload your photo",
+      "subtitle": "Supported formats: JPG, PNG, WEBP. File size must be under 12 MB.",
       "button": "Upload image",
       "hint": "or drop a file",
       "invalidType": "Please select an image file.",
-      "tooLarge": "The image is too large. Please choose a file under 12MB.",
-      "previewAlt": "Selected reference image",
+      "tooLarge": "The image is too large. Please choose a file under 12 MB.",
+      "previewAlt": "Selected photo for retro styling",
       "slotLabel": "Reference image {index}",
       "clearSlot": "Remove reference image {index}"
     },
     "prompt": {
-      "help": "Add instructions to guide the model toward your desired result.",
-      "label": "prompt",
-      "placeholder": "e.g. Keep the composition but convert to a bright, anime-style illustration",
+      "help": "Add optional guidance such as lighting, wardrobe, or location.",
+      "label": "Prompt",
+      "placeholder": "e.g. 1984 skate park at sunset, warm lens flare, kodachrome grain",
       "clear": "Clear prompt"
     },
     "modes": {
-      "title": "Choose a Polaroid mode",
+      "title": "Choose a retro preset",
       "self": {
-        "title": "Hug your younger self"
+        "title": "Time Traveler Duo"
       },
       "celebrity": {
-        "title": "Polaroid with a star"
+        "title": "Neon Nightlife"
       }
     },
     "errors": {
-      "missingImage": "Please upload both reference images before generating.",
-      "missingPrompt": "Please enter a prompt describing the changes you want.",
+      "missingImage": "Please upload at least one reference image before generating.",
+      "missingPrompt": "Please enter a prompt or select a preset describing the style you want.",
       "uploadFailed": "Image upload failed. Please configure storage and try again.",
       "downloadFailed": "Image download failed. Please try again later."
     },
     "actions": {
       "generate": "Generate image",
-      "generating": "Generating…",
+      "generating": "Generating...",
       "clear": "Clear result"
     },
     "status": {
-      "uploaded": "Reference images uploaded — reuse them anytime"
+      "uploaded": "Reference images uploaded - reuse them anytime"
     },
     "result": {
-      "title": "Generated image",
+      "title": "Retro result",
       "subtitle": "Click to view full size or download the image.",
       "empty": "Generated images will appear here",
       "previewHint": "Preview full size",
       "downloadHint": "Download image",
-      "previewAlt": "Generated image preview",
+      "previewAlt": "Generated retro image preview",
       "previewCta": "Click to preview",
-      "revisedLabel": "Model suggestion:",
+      "revisedLabel": "Suggested adjustments:",
       "currentPrompt": "Current prompt: {prompt}"
     }
   }

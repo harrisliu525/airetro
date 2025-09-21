@@ -12,7 +12,7 @@ import { websiteConfig } from './website';
  * Use this function when showing the pricing table or the billing card to the user.
  *
  * docs:
- * https://mksaas.com/docs/config/price
+ * https://ai-retro.com/docs/config/price
  *
  * @returns The price plans with translated content
  */

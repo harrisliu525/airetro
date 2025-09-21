@@ -21,7 +21,7 @@ import { websiteConfig } from './website';
  * NOTICE: used in client components only
  *
  * docs:
- * https://mksaas.com/docs/config/social
+ * https://ai-retro.com/docs/config/social
  *
  * @returns The social config
  */
