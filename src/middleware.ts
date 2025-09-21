@@ -55,10 +55,11 @@ export default async function middleware(req: NextRequest) {
 
   // do not use getSession() here, it will cause error related to edge runtime
   // const session = await getSession();
+  const baseUrl = req.nextUrl.origin || getBaseUrl();
   const { data: session } = await betterFetch<Session>(
     '/api/auth/get-session',
     {
-      baseURL: getBaseUrl(),
+      baseURL: baseUrl,
       headers: {
         cookie: req.headers.get('cookie') || '', // Forward the cookies from the request
       },
